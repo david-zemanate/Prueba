@@ -1,0 +1,175 @@
+/*variable*/
+:root{
+--azul-color:#188DA0;
+--white-color:#fff;
+--negro
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+label{
+	font-size: 17px;
+}
+nav{
+    display: flex;
+    font-size: 14px;
+    background-color: var(--azul-color);
+    padding: 25px;
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.nav_options2 ul{
+	display: flex;
+	margin-left: 24%;
+}
+nav ul{
+	display: flex;
+}
+.nav_options2 li{
+	padding-right: 20px;
+	list-style: none;
+}
+nav li{
+	padding-right: 20px;
+	list-style: none;
+}
+.content img{
+	height: 80px;
+}
+.content2 img{
+	height: 80px;
+}
+.content2 p{
+	text-align: center;
+}
+.logo img{
+	height: 60px;
+}
+.nav_options2 li a{
+	color:#45743E;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 19px;
+}
+nav li a{
+	color:#000;
+	text-decoration: none;
+	cursor: pointer;
+}
+nav li a:hover{
+	color: #000;
+	
+}
+.nav_options2 li a:hover{
+	color:#5F9B57;
+	
+}
+.main_section{
+	padding: 23%;
+    position: relative;
+    top: -130px;
+    text-align: center;
+    font-size: 40px !important; 
+}
+.products{
+    background-color: #B3B5B5;
+    background-size: cover;
+    background-position: center;
+    padding: 15%;
+    justify-content: space-around;
+    display: flex;
+
+}
+.product{
+    padding: 10px;
+    background: var(--white-color);
+    margin-top: -380px;
+    box-shadow: 0 0 4px black;
+}
+}
+.product .content{
+	background-color: var(--white-color);
+     padding: 20px;
+     box-shadow: 0 0 5px black;
+}
+.img_content{
+	text-align:center; 
+}
+.main_boton{
+	background-color: var(--azul-color);
+	border:0;
+	width: 100%;
+	padding: 10px;
+	font-size: 17px;
+	color: var(--white-color);
+	cursor: pointer;
+	border-radius: 2px;
+}
+.main_boton:hover{
+	background-color: #65C6EA;
+
+}
+h1{
+	text-align: center;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 154px;
+	
+}
+.informacion{
+	padding:60px;
+}
+.content2{
+	    box-shadow: 0 0 8px black;
+}
+.info2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 154px;
+    padding-left: 110px;
+    padding-right: 70px;
+    height: 233px;
+}
+
+/*venta*/
+.modulo_pago{
+	background-color: #fff;
+	box-shadow: 0px 0 2px 1px #e6e5e9;
+	padding: 10px;
+}
+.modulo_pago_img{
+	max-width: 150px;
+	text-align: center;
+	margin: auto;
+}
+.data{
+	margin-top: 10px;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border:1px solid #000;
+	font-size: 17px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+footer{
+	font-size: 10px;
+    height: 220px;
+    background: #9AC9DB;
+    padding: 35px;
+}
+footer a{
+	
+    margin-left: 42%;
+	color: #000;
+	font-size: 19px;
+}

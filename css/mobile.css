@@ -1,0 +1,51 @@
+@media (max-width: 550px){
+h1{
+	padding-bottom: 34px;
+}
+.info {
+	display: block;
+}
+.info2{
+	    display: block;
+    width: 419px;
+    padding-left: 3px;
+}
+.products{
+	padding-top: 250px
+}
+.main_section{
+	position: inherit;
+}
+}
+@media (max-width: 950px){
+h1{
+	padding-bottom: 34px;
+}
+.info {
+	display: block;
+}
+.info2{
+    display: block;
+    width: 419px;
+    padding-left: 3px;
+}
+.informacion{
+	    margin-bottom: 364px;
+}
+}
+@media(max-height:500px){
+     .product{
+     	animation-name: aparecer;
+     }
+}
+@media(max-height:700px){
+	.info{
+      animation-name: animationTec;
+	}
+}
+@media(max-height:1800px){
+	.info2{
+      animation-name: animationInt;
+	}
+}
+

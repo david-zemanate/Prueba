@@ -1,0 +1,20 @@
+body{
+	background: #848383 ;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	  height: 100vh;
+}
+.container_exitoso  a{
+     color: #45743E;
+   
+}
+
+.container_exitoso a:hover{
+	color: #000;
+}
+.container_exitoso a:focus{
+	color: #000;
+}
